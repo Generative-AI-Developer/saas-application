@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export const Header = () => {
   return(
-    <header className='sticky top-0 backdrop-blur-sm'>
+    <header className='sticky top-0 backdrop-blur-sm z-20'>
   <div className='flex justify-center items-center bg-black text-white text-sm py-3 gap-3'>
     <p className='text-white/60 hidden md:block'>Streem line yourflow and boost your productivity</p>
    <div className='inline-flex gap-1 items-center'>
